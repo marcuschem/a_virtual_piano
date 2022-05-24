@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+    height: 600px;
+    background-color: rgba(20, 20, 105, 1);
+    border: none;
+}
+
+.white-keys, .black-keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    width: 50%;
+    height: 10%;
+}
+
+.white-keys > kbd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 2px rgba(0, 0, 0, 1) solid;
+    width: calc(100% / 7);
+    height: 100%;
+}
+
+.black-keys > kbd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px rgba(0, 0, 0, 1) solid;
+    width: calc(100% / 7);
+    height: 100%;
+}
